@@ -54,7 +54,7 @@ header nav {
     box-shadow: 0px 0px 15px var(--header-background-color);
     width: fit-content;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 75px;
 }
 
 header nav img {
@@ -65,5 +65,28 @@ header nav img {
 }
 
 header nav img:hover {
-    box-shadow: 0 0 10px var(--image-hover-effect);
+    box-shadow: 0 0 15px var(--image-hover-effect);
+}
+
+
+main {
+    margin: auto;
+    width: 311px;
+}
+
+main div#celular {
+    background-image: url("assets/images/frame-iphone.png");
+    background-repeat: no-repeat;
+    background-size: 311px 627px;
+    height: 627px;
+
+    text-align: center;
+}
+
+
+main div#celular iframe {
+    width: 270px;
+    height: 472px;
+    margin-top: 80px;
+
 }
