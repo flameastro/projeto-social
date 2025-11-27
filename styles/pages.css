@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    display: block;
+    background-color: #7e0000;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #c00000;
+}
